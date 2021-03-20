@@ -1,1 +1,29 @@
-# BuildingRunningAndDebuggingAnApp
+# [go back to content](https://github.com/c4arl0s/AppDevelopmentWithSwift#1-getting-started-with-app-development)
+
+# [Building, Running And Debugging An App - Content](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#go-back-to-content)
+
+1. [Building and Running](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#1-building-and-running)
+2. [Using a Personal Device](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#2-using-a-personal-device)
+3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#3-building-and-running-wirelessly)
+4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#4-debugging-an-application)
+5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#5-warnings)
+6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#6-compile-errors)
+7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#7-bugs)
+8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#8-lab---debug-your-first-app)
+    - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-1-find-and-fix-compiler-errors)
+    - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-2-find-and-fix-runtime-errors)
+    - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-3-find-and-fix-compiler-warnings)
+
+# [Building, Running And Debugging An App](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+# 1. [Building and Running](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 2. [Using a Personal Device](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+# 8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+#     - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+#     - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+#     - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
