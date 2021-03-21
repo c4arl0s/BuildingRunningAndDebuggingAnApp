@@ -143,6 +143,21 @@ Xcode will do its best to explain the warning in a straightforward way:
 The compiler is telling you that it created `x` but - Since it is not used in a meaningful way - you can remove it. Delete the line and rebuild to remove the warning.
 
 # 6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+An error is indicative of a more serious issue.
+
+> For example, invalid code (such as a typo), improperly declaring a variable, or improperly calling a function. Unlike a warning, an error prevents the code from ever being executed. Simulator will not even launch if your code has an error.
+
+Here is a look at two different errors in the making. In ViewController.swift, remove the open and closing parenthesis on the end of `super.viewDidLoad()`, leaving `super.viewDidLoad`. Beneath this line of code, write `navigationController.title = "Debugging"`.
+
+After you build tyhe app, you will see two red error symbols.
+
+![Screen Shot 2021-03-21 at 8 27 26](https://user-images.githubusercontent.com/24994818/111908545-49b2b580-8a1f-11eb-93ed-d7f3330626a0.png)
+
+One of the errors has a dot in the center. Click this eero and Xcode displays a suggestion to fix the code. Click the Fix button to have Xcode implement this suggestion. In this instance, Xcode provides a valid fix. However, the compiler cannot be relied upon the propertly fix all errors - You need to be able to address errors on your own.
+
+The other error has an exclamation point in the center. Xcode does not offer a fix-it for this type of error, but it does provide a message that can help you identify the issue. The compiler expected to see an open and closing parenthesis as the proper syntax for calling a function. Add both characters at the end of `super.viewDidLoad` to remove the last error.
+
 # 7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 #     - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
