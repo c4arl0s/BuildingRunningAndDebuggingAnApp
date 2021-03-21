@@ -107,6 +107,17 @@ Direccion IP: 10.0.0.5
 Disconnect, build and run again. The connection was successful!!!!. 
 
 # 4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+Even the best developers struggle to write perfect code. **Debugging is the process of identifying and removing problems that may arise in your app**. Xcode provides tools to help you through this process.
+
+When you run an app as described above, either on the simulator or on your device, Xcode will connect the app to its debugger. This allows you to watch the execution of your code in real time, stop code execution using breakpoints, print information from your code to the console, and much more.
+
+As you proceed through this course, you will encountered three types of issues:
+
+1. Warnings.
+2. Compile errors.
+3. bugs.
+
 # 5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
