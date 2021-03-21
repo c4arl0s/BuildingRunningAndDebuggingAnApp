@@ -246,4 +246,33 @@ Done !
 ![Screen Shot 2021-03-21 at 10 07 52](https://user-images.githubusercontent.com/24994818/111911997-50482980-8a2d-11eb-86aa-678cc9a0c16e.png)
 
 #     - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+- Were you able to remove all the red error symbols from the project?. If so, try to run the app again.
+
+![Screen Shot 2021-03-21 at 10 12 42](https://user-images.githubusercontent.com/24994818/111912152-fe53d380-8a2d-11eb-8757-5fdcdac0a6e5.png)
+
+- This time around, notice that the app stops execution right after opening in the Simulator and that there is a red line across one of the lines of code on the screen. 
+
+![Screen Shot 2021-03-21 at 10 14 12](https://user-images.githubusercontent.com/24994818/111912194-33602600-8a2e-11eb-879d-7ac8a946e927.png)
+
+- Take a look at the text in the console area to learn what the issue might be. Go ahead and try to solve this runtime error. If it is helpful, you might want to add breakpoints at and before the affected code, then run the app again.
+
+Console output:
+
+```console
+Fatal error: Can't remove first element from an empty collection: file Swift/RangeReplaceableCollection.swift, line 624
+2021-03-21 10:12:37.843592-0600 FirstTimeDebugging[13222:249176] Fatal error: Can't remove first element from an empty collection: file Swift/RangeReplaceableCollection.swift, line 624
+```
+
+Removing the second `removeFirst()` instance method from testArray collection solves the problem.
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    // Override point for customization after application launch.
+    var testArray: [String] = ["Uh oh..."]
+    testArray.removeFirst()
+    return true
+}
+```
+
 #     - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
