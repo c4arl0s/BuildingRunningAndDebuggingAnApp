@@ -159,6 +159,71 @@ One of the errors has a dot in the center. Click this eero and Xcode displays a 
 The other error has an exclamation point in the center. Xcode does not offer a fix-it for this type of error, but it does provide a message that can help you identify the issue. The compiler expected to see an open and closing parenthesis as the proper syntax for calling a function. Add both characters at the end of `super.viewDidLoad` to remove the last error.
 
 # 7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+The third type of issue is know as a bug - and it is the hardest issue to track down. A bug is an error that occurs while running the program, resulting in a crash or incorrect output. Finding bugs can involve some time and some real detective work.
+
+in ViewController.swift file, add the following lines of code below `super.viewDidLoad()`:
+
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    navigationController?.title = "Debugging"
+    var names = ["Carlos", "Norma"]
+    names.removeFirst()
+    names.removeFirst()
+    names.removeFirst()
+}
+```
+
+You may not be familiar with Swift at this point, and that is OK. These lines are simple to understand. `names` is a list containing two pieces of text, "Carlos" and "Norma". Each subsequent line removes the first item from the list. Sice there are three calls to remove the first item, but not only two items in the list, what do you expect will happen?.
+
+Build and run the application. Since the syntax is valid, you will receive the "Build Succeeded" message. Now try running the app. After a few moments, the program will crash, and the following message will be printed to the console.
+
+Console output:
+
+```console
+Fatal error: Can't remove first element from an empty collection: file Swift/RangeReplaceableCollection.swift, line 624
+2021-03-21 08:38:18.937476-0600 GettingStarted[9744:170279] Fatal error: Can't remove first element from an empty collection: file Swift/RangeReplaceableCollection.swift, line 624
+(lldb) 
+```
+
+The program crashed when it tried to remove the remaining first element and could not find one. You have already guessed that. But imagine you are unsure how to fix the problem. Xcode can help you to step through the program one line at a time.
+
+Before you start looking for the bug, you will need to add a breakpoint to your code. A breakpoint pauses the execution of a program at a specified point. Create a breakpoint by left-clicking in the gutter area to the left of the line where you want execution to pause. In this case, add the breakpoint to the `var names = ["Carlos", "Norma"]` line.
+
+![Screen Shot 2021-03-21 at 8 45 21](https://user-images.githubusercontent.com/24994818/111909162-ca72b100-8a21-11eb-8619-72f08ab62591.png)
+
+Build and run your app. You will see the program pause at the breakpoint. That is good. In the debug area, show the variables view to inspect the current values. Since the breakpointed line has not yet been executed, `names` contains no values.
+
+Click the "Step over" button to advance execution by one line. In the variables view, you can see that `names` has been assigned the proper values. So far, so good.
+
+![Screen Shot 2021-03-21 at 8 47 49](https://user-images.githubusercontent.com/24994818/111909235-21788600-8a22-11eb-8347-7a5b6bfac023.png)
+
+Click the "Step Over" button again to execute the first call to `names.removeFirst()`. `names` no longer includes "Carlos" in its list, so that worked fine. Click "Step Over" again to execute the second call to `names.removeFirst()`, leaving `names` an empty list with zero values. Still OK. By now, it should be clear that the third call to `names.removeFirst()` is responsible for the bug.
+
+![Screen Shot 2021-03-21 at 8 51 09](https://user-images.githubusercontent.com/24994818/111909358-98ae1a00-8a22-11eb-8f3d-a5493f96e066.png)
+
+Remove the third call to `names.removeFirst()` and run the program again to verify that the error has been fixed.
+
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    navigationController?.title = "Debugging"
+    var names = ["Carlos", "Norma"]
+    names.removeFirst()
+    names.removeFirst()
+}
+```
+
+Debugging is a crucial skill for developers to build. When debugging, take the following approach:
+
+1. Try to understand the problem.
+2. Brainstorm a potential solution.
+3. Try the solution.
+4. Verify it worked, repeat as necessary.
+
+Take each bug one step at a time. It can be frustrating to run into bugs when building apps, but it feels great when you are able to fix them.
+
 # 8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 #     - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 #     - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
