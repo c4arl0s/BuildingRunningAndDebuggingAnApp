@@ -225,6 +225,25 @@ Debugging is a crucial skill for developers to build. When debugging, take the f
 Take each bug one step at a time. It can be frustrating to run into bugs when building apps, but it feels great when you are able to fix them.
 
 # 8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+The objective of this lab is to find and resolve compiler errors, runtime errors, and compiler warnings.
+
 #     - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+1. Open the Xcode project, "FirstTimeDebugging".
+2. Try to run the app. Note that i will not run due to a few compiler error.s As you have learned in this lesson, compiler errors are indicated by red symbols in line with the mistake - or where the compiler guesses the mistake might be. All compiler errors are also listed in the issue navigator.
+
+![Screen Shot 2021-03-21 at 9 56 35](https://user-images.githubusercontent.com/24994818/111911563-c350a080-8a2b-11eb-86fe-bc9ac1dd50fd.png)
+
+3. Fix the compiler errors so that you can run the app. Here are two of the more common mistakes that may have caused this app's compiler errors:
+
+ - Missing or extra parentheses or braces (whether opening or closing).
+ - Referencing a function or property but with incorrect spelling. (Remember that the compiler is very literal; it expects you to reference a function or property exactly by the name you gave it.
+ Hint: Sometimes a single mistake can cause the compiler to flag multiple errors. Fix one mistake and you might eliminate all the error symbols.
+
+Done !
+
+![Screen Shot 2021-03-21 at 10 07 52](https://user-images.githubusercontent.com/24994818/111911997-50482980-8a2d-11eb-86aa-678cc9a0c16e.png)
+
 #     - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 #     - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
