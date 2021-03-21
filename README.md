@@ -119,6 +119,29 @@ As you proceed through this course, you will encountered three types of issues:
 3. bugs.
 
 # 5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+Warnings are the simplest kinds of issues to fix. They are generated whenever your code is built, but they don't prevent your program from successfully compiling and running. Some of the conditions that can throw a warning include:
+
+1. Writing code that never gets executed.
+2. Creating a variable that never changes.
+3. Using code that is out of date (also known as deprecated code).
+
+Take a look at a warnings. Back in Xcode, select ViewController.swift, in the project navigator and, in the editor area, add the following line of code just below `super.viewDidLoad()`.
+
+```swift
+let x = 4
+```
+
+This code assigned a value of 4 to a constant named `x`. Build your application using Command-B. You should see a yellow caution sign on the line you just added.
+
+![Screen Shot 2021-03-21 at 8 09 33](https://user-images.githubusercontent.com/24994818/111907907-d019c800-8a1c-11eb-90ce-5f80dfcefcda.png)
+
+Xcode will do its best to explain the warning in a straightforward way:
+
+![Screen Shot 2021-03-21 at 8 11 44](https://user-images.githubusercontent.com/24994818/111907986-17a05400-8a1d-11eb-8d74-9d3f63582724.png)
+
+The compiler is telling you that it created `x` but - Since it is not used in a meaningful way - you can remove it. Delete the line and rebuild to remove the warning.
+
 # 6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
