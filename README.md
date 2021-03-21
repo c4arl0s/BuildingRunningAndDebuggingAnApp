@@ -276,3 +276,31 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 #     - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+- Now that the app runs, focus your attention on a few more problems. Open the project's issue navigator. You will note several warnings, indicated by yellow triangles. Address all of these warnings.
+
+```swift
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        let sample = "sample"
+        print(sample)
+        print("Will this line of code ever be reached?")
+        someMethod()
+    }
+    
+    func someMethod() {
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+}
+```
+
+![Screen Shot 2021-03-21 at 10 42 52](https://user-images.githubusercontent.com/24994818/111913101-34935200-8a32-11eb-899f-a82d21e92e01.png)
