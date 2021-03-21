@@ -52,8 +52,26 @@ There are also some software limitations with Simulator.
 
 Overall, Simulator works very well when you are developing and debugging apps, but you should always test your code on actual hardware.
 
-
 # 2. [Using a Personal Device](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
+
+The beauty of mobile apps is that you can take them anywhere. You may find that you want to share your programming progress with friends and coworkers. But before you can begin running your code on a physical device, you must have an account on the Apple Developer website. Accounts are free, so don't worry.
+
+Using a web browser, go to web developer page, and click Account. You can sign up using your existing Apple ID. If you don't have an Apple ID, go ahead and create one - It is also free. Once you have entered your Apple ID, your developer account is good and you can head on back to Xcode.
+
+> A free account enables you to run your iOS apps on only one physical device. If you want to distribute your apps to multiple devices or publish them to the App Store, you will need to enroll in the App Developer Program.
+
+Now you will need to tell Xcode about your new developer account. Open Xcode Preferences using the keyboard shortcut Command-Comma, and select the Accounts button near the upper-left-corner. Click the "+" button in the lower-left corner, and Add Apple ID from the menu. After entering your credentials, you are ready to run and debug apps on a physical iOS device.
+
+![Screen Shot 2021-03-21 at 6 07 13](https://user-images.githubusercontent.com/24994818/111904279-b2903280-8a0b-11eb-804b-72e9c26e3381.png)
+
+Connect your iOS device to your Mac using the appropriate USB cable. Xcode will automatically download the necessary information from the device and will display its  name in the Scheme menu. Choose the name of your physical device - which will typically be at the top of the list, before the device simulators.
+
+Build and run the app again. You may receive the following prompt, asking you to trust the developer certificate. Follow the instructions within the alter to allow the device to run your apps.
+
+![Screen Shot 2021-03-21 at 6 09 39](https://user-images.githubusercontent.com/24994818/111904334-09960780-8a0c-11eb-8e33-40a2a6d22dcd.png)
+
+Build and run once more, and you should see the same simple white screen on your iOS device. To stop the app from running, click the Stop button near the left end of the Xcode toolbar.
+
 # 3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 # 5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
