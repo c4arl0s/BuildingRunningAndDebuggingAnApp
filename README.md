@@ -2,17 +2,17 @@
 
 # [Building, Running And Debugging An App - Content](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#go-back-to-content)
 
-1. [Building and Running](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#1-building-and-running)
-2. [Using a Personal Device](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#2-using-a-personal-device)
-3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#3-building-and-running-wirelessly)
-4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#4-debugging-an-application)
-5. [Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#5-warnings)
-6. [Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#6-compile-errors)
-7. [Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#7-bugs)
-8. [Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#8-lab---debug-your-first-app)
-    - [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-1-find-and-fix-compiler-errors)
-    - [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-2-find-and-fix-runtime-errors)
-    - [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-3-find-and-fix-compiler-warnings)
+1. [x] [1. Building and Running](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#1-building-and-running)
+2. [x] [2. Using a Personal Device](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#2-using-a-personal-device)
+3. [x] [3. Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#3-building-and-running-wirelessly)
+4. [x] [4. Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#4-debugging-an-application)
+5. [x] [5. Warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#5-warnings)
+6. [x] [6. Compile Errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#6-compile-errors)
+7. [x] [7. Bugs](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#7-bugs)
+8. [x] [8. Lab - Debug your first app](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#8-lab---debug-your-first-app)
+    - [x] [Step 1: Find and fix compiler errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-1-find-and-fix-compiler-errors)
+    - [x] [Step 2: Find and fix runtime errors](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-2-find-and-fix-runtime-errors)
+    - [x] [Step 3: Find and fix compiler warnings](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#--step-3-find-and-fix-compiler-warnings)
 
 # [Building, Running And Debugging An App](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 
