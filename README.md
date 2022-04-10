@@ -86,7 +86,15 @@ If your device is on the same network as your Mac, you will see a globe appear n
 
 **You can disconnect the USB cable connecting your device to your Mac, and build and run your app wirelessly**.
 
-In most cases, the above steps are sufficient for wireless pairing. However, if this does not work for you, you might to be on a corporate or institutional network where the system administrator has put in place certain network restrictions. In this case, simply open the Devices and Simulators window, hold Control and click on your device, then click Connect via IP Address in the dropdown presented. You will then need to find your device's IP address from you device's settings, enter it in the prompt, and click Connect. This should successfully pair your device.
+# Case: Institutional Network
+
+In most cases, the above steps are sufficient for wireless pairing. However, if this does not work for you, you might to be on a corporate or institutional network where the system administrator has put in place certain network restrictions. In this case, 
+
+1. simply open the Devices and Simulators window, hold Control and click on your device, 
+2. then click Connect via IP Address in the dropdown presented. 
+3. You will then need to find your device's IP address from you device's settings, enter it in the prompt, and click Connect. 
+
+This should successfully pair your device.
 
 # This was my case
 
