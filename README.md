@@ -74,9 +74,12 @@ Build and run once more, and you should see the same simple white screen on your
 
 # 3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 
-**Xcode also gives you the option of deploying an app to your device over your network**. To do this, connect your iOS device to your Mac using the appropriate USB cable, and open the Devices and Simulators window by selecting Devices and Simulators from the Window dropdown.
+**Xcode also gives you the option of deploying an app to your device over your network**. To do this, 
 
-Ensure that your device is selected in the list farthest to the left in the Devices and Simulators window. Check the Connect via network box.
+1. connect your iOS device to your Mac using the appropriate USB cable, and 
+2. open the Devices and Simulators window by selecting Devices and Simulators from the Window dropdown.
+3. Ensure that your device is selected in the list farthest to the left in the Devices and Simulators window. 
+4. Check the Connect via network box.
 
 ![Screen Shot 2021-03-21 at 6 27 04](https://user-images.githubusercontent.com/24994818/111904854-875b1280-8a0e-11eb-80c3-1c763d0b8833.png)
 
