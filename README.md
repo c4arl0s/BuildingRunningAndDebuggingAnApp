@@ -74,7 +74,7 @@ Build and run once more, and you should see the same simple white screen on your
 
 # 3. [Building and Running Wirelessly](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 
-Xcode also gives you the option of deploying an app to your device over your network. To do this, connect your iOS device to your Mac using the appropriate USB cable, and open the Devices and Simulators window by selecting Devices and Simulators from the Window dropdown.
+**Xcode also gives you the option of deploying an app to your device over your network**. To do this, connect your iOS device to your Mac using the appropriate USB cable, and open the Devices and Simulators window by selecting Devices and Simulators from the Window dropdown.
 
 Ensure that your device is selected in the list farthest to the left in the Devices and Simulators window. Check the Connect via network box.
 
@@ -84,7 +84,7 @@ If your device is on the same network as your Mac, you will see a globe appear n
 
 ![Screen Shot 2021-03-21 at 6 29 58](https://user-images.githubusercontent.com/24994818/111904943-def97e00-8a0e-11eb-970f-4a2693e84adb.png)
 
-You can disconnect the USB cable connecting your device to your Mac, and build and run your app wirelessly.
+**You can disconnect the USB cable connecting your device to your Mac, and build and run your app wirelessly**.
 
 In most cases, the above steps are sufficient for wireless pairing. However, if this does not work for you, you might to be on a corporate or institutional network where the system administrator has put in place certain network restrictions. In this case, simply open the Devices and Simulators window, hold Control and click on your device, then click Connect via IP Address in the dropdown presented. You will then need to find your device's IP address from you device's settings, enter it in the prompt, and click Connect. This should successfully pair your device.
 
@@ -104,7 +104,7 @@ Direccion IP: 10.0.0.5
 
 ![Screen Shot 2021-03-21 at 6 59 26](https://user-images.githubusercontent.com/24994818/111905789-0f431b80-8a13-11eb-9704-8053b2dda484.png)
 
-Disconnect, build and run again. The connection was successful!!!!. 
+**Disconnect, build and run again**. The connection was successful!!!!. 
 
 # 4. [Debugging an Application](https://github.com/c4arl0s/BuildingRunningAndDebuggingAnApp#building-running-and-debugging-an-app---content)
 
